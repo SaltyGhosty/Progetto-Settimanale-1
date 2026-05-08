@@ -15,9 +15,48 @@ body {
 	padding: 0;
 }
 
-section span{
-    font-size: 5px;
+h4{
+  font-size: 22px;
+    
 }
+section span{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+   
+
+
+
+
+}
+.prima-pagina a::before {
+    content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size: contain;
+	vertical-align: middle;
+	margin-right: 2px;
+	
+}
+
+p.icono-1::before{
+    content:"";
+    display: inline-block;
+    background-image: url(/EsercizioPorfolio/Assets/img/logo-github.svg);
+    width: 20px;
+    height: 20px;
+    transform: translateY(3.5px);
+
+    
+}
+
 
 
 #site-header {

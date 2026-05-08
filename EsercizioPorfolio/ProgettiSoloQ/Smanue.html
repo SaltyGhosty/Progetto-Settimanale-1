@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <style>
+        #myHeader {
+            background-color: black;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+
+
+    <h2 style="text-align: center;">Giornata normale di manu</h2>
+    <p style="text-align: center;">Starta la soloQ super gasato pensando al suo OTP Sett</p>
+
+    <h1 id="myHeader">First Blood</h1>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100px;">
+        <button onclick="displayResult()">Change text</button>
+    </div>
+
+
+    <script>
+        function displayResult() {
+            const randomNumber = () => {
+                const min = -20;
+                const max = 20;
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            };
+            let header = document.getElementById("myHeader");
+            let num = randomNumber();
+            let randomText = num < 0 ? "Overpusha e viene permagankato" : "Baluu lo ganka e gappano la partita";
+            header.innerHTML = randomText + " " + num + "Lp";
+            if (num < 0) {
+                header.style.backgroundColor = "red";
+            } else {
+                header.style.backgroundColor = "green";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

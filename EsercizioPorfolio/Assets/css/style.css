@@ -494,15 +494,18 @@ button:hover {
 #site-footer {
 	background-color: hsl(0, 0%, 0%);
 	color: #ffffff;
+	text-decoration: none;
 	text-align: center;
 	font-size: 0.9rem;
 	line-height: 3;
+	
 }
-#site-footer::before{
-	content: "";
-	display: inline-block;
-	background-image: url(/EsercizioPorfolio/Assets/img/arrow-forward-outline.svg);
-	width: 20px;
-	height: 20px;
-	color: #c0ff2c;
+
+.icon2{
+	border-radius: 26px;
+	border:0;
+}
+
+nav .newone{
+	border-radius: 26px;
 }

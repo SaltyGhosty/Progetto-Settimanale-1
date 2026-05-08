@@ -501,11 +501,16 @@ button:hover {
 	
 }
 
-.icon2{
-	border-radius: 26px;
-	border:0;
+nav.newone ul li{
+	border-radius: 60px;
+	height: 30px;
+	width: 30px;
 }
-
-nav .newone{
-	border-radius: 26px;
+nav.newone a:hover {
+	color: #d6a3a3;
+	background-color: rgba(242, 233, 243, 0.15);
+	padding: 0;
+}
+.icon2{
+	padding:0;
 }

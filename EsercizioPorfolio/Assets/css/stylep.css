@@ -150,6 +150,19 @@ main section {
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 	background-color: #8acfd4;
 }
+main section h1::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(/EsercizioPorfolio/Assets/img/disc-outline.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	transform: translateY(-3px);
+	margin-right: 5px;
+
+}
 
 
 #site-footer {

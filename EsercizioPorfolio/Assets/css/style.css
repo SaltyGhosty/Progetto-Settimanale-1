@@ -17,17 +17,19 @@ body {
 
 
 
+
 #site-header {
 	background-color: hsl(308, 62%, 52%);
 	background-image: url("../img/HeaderNEU121.jpg");
 	border-bottom: 4px solid yellow;
 	background-size: cover;
 	background-position: center;
-	color: #000000;
+	color: #fdf3f3;
 	text-align: center;
 	line-height: 2.3;
 	list-style-type: none;
 	padding: 60px 20px 40px;
+	
 
 
 }
@@ -40,14 +42,17 @@ body {
 	font-style: italic;
 	border-bottom: 4px solid (0, 0, 0, 0.2);
 	text-shadow: 0 2px 4px rgb(0, 0, 0, 0.2)
+	
 }
 
 
 
 
 .tagline {
-	color: rgb(255, 65, 239);
-	font-style: italic;
+	color: rgb(255, 255, 255);
+	font-style:italic;
+	font-weight: bold;
+	font-size: 22px;
 }
 
 .avatar {
@@ -59,8 +64,14 @@ body {
 	margin: 0 24px 12px 0;
 }
 
+.icon {
+	transform: translateY(4px);
+
+}
+
 #chi-sono {
 	clear: both;
+	
 }
 
 #chi-sono p:first-of-type::first-letter {
@@ -70,29 +81,44 @@ body {
 	margin-right: 3px;
 	line-height: 0.3;
 	color: blue;
+	
 }
 
 
 
 nav a {
-	color: hsl(17, 100%, 51%);
-	font-weight: bold;
-	line-height: 3;
+color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    line-height: 3;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 30px;
+	
 }
 
+
+
 nav a:hover {
-	color: #d60e0e;
+	color: #d6a3a3;
 	background-color: rgba(242, 233, 243, 0.15);
-	 padding: 10px ;
+    padding:30px;
+	
 }
+
 
 
 
 nav ul li {
 	display: inline-block;
-	margin: 0 15px;
-	padding: 10px;
+    margin: 0 5px;
+    padding: 10px;
+    margin-bottom: 29px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transform: translateY(30px);
 }
+
 
 main {
 	max-width: 920px;
@@ -106,17 +132,27 @@ main {
 
 main section {
 	padding: 32px;
+	margin-left: -150px;
+    margin-right: -150px;
 	margin-bottom: 24px;
 	border: 1px solid #e0e0e0;
 	border-radius: 8px;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+	background-color: #8acfd4;
 }
 
 main section h2::before {
-	content: "- ";
-	color: #b0eb25;
-
-
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(/EsercizioPorfolio/Assets/img/disc-outline.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  transform: translateY(-3px);
+  margin-right: 5px;
+  
 }
 
 
@@ -142,6 +178,7 @@ h3 {
 #chi-sono {
 	background-color: #8acfd4;
 	text-align: justify;
+	margin-top: -100px;
 }
 
 #chi-sono p:first-of-type {
@@ -155,19 +192,12 @@ h3 {
 
 
 .skill-list {
-	line-height: 2.2;
-}
+ content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(/EsercizioPorfolio/Assets/img/disc-outline.svg);
 
-.skill-list li:nth-child(odd) {
-	background-color: #4773ca;
-}
-
-.skill-list li:nth-child(even) {
-	background-color: #50b493;
-}
-
-.skill-list li:first-child {
-	font-weight: bold;
 }
 
 

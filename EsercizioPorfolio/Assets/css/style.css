@@ -39,7 +39,7 @@ body {
 #site-header h1 {
 	font-size: 3rem;
 	font-weight: bold;
-	font-style: italic;
+    font-family:"Roboto";
 	border-bottom: 4px solid (0, 0, 0, 0.2);
 	text-shadow: 0 2px 4px rgb(0, 0, 0, 0.2)
 }
@@ -162,6 +162,7 @@ h2 {
 	line-height: 2.4;
 	font-weight: bold;
 	margin: 0;
+	font-family:"roboto", sans-serif;
 }
 
 h3 {
@@ -169,6 +170,7 @@ h3 {
 	color: hsl(182, 85%, 44%);
 	text-align: left;
 	line-height: 2.2;
+	font-family:"Montserrat", sans-serif;
 }
 
 

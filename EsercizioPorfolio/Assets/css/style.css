@@ -29,7 +29,7 @@ body {
 	line-height: 2.3;
 	list-style-type: none;
 	padding: 60px 20px 40px;
-	
+
 
 
 }
@@ -42,7 +42,6 @@ body {
 	font-style: italic;
 	border-bottom: 4px solid (0, 0, 0, 0.2);
 	text-shadow: 0 2px 4px rgb(0, 0, 0, 0.2)
-	
 }
 
 
@@ -50,7 +49,7 @@ body {
 
 .tagline {
 	color: rgb(255, 255, 255);
-	font-style:italic;
+	font-style: italic;
 	font-weight: bold;
 	font-size: 22px;
 }
@@ -71,7 +70,7 @@ body {
 
 #chi-sono {
 	clear: both;
-	
+
 }
 
 #chi-sono p:first-of-type::first-letter {
@@ -81,19 +80,19 @@ body {
 	margin-right: 3px;
 	line-height: 0.3;
 	color: blue;
-	
+
 }
 
 
 
 nav a {
-color: hsl(0, 0%, 100%);
-    font-weight: bold;
-    line-height: 3;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 30px;
-	
+	color: hsl(0, 0%, 100%);
+	font-weight: bold;
+	line-height: 3;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 30px;
+
 }
 
 
@@ -101,8 +100,8 @@ color: hsl(0, 0%, 100%);
 nav a:hover {
 	color: #d6a3a3;
 	background-color: rgba(242, 233, 243, 0.15);
-    padding:30px;
-	
+	padding: 30px;
+
 }
 
 
@@ -110,13 +109,13 @@ nav a:hover {
 
 nav ul li {
 	display: inline-block;
-    margin: 0 5px;
-    padding: 10px;
-    margin-bottom: 29px;
-    border: 2px solid #e0e0e0;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-    transform: translateY(30px);
+	margin: 0 5px;
+	padding: 10px;
+	margin-bottom: 29px;
+	border: 2px solid #e0e0e0;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+	transform: translateY(30px);
 }
 
 
@@ -133,7 +132,7 @@ main {
 main section {
 	padding: 32px;
 	margin-left: -150px;
-    margin-right: -150px;
+	margin-right: -150px;
 	margin-bottom: 24px;
 	border: 1px solid #e0e0e0;
 	border-radius: 8px;
@@ -142,25 +141,27 @@ main section {
 }
 
 main section h2::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url(/EsercizioPorfolio/Assets/img/disc-outline.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: middle;
-  transform: translateY(-3px);
-  margin-right: 5px;
-  
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(/EsercizioPorfolio/Assets/img/disc-outline.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	transform: translateY(-3px);
+	margin-right: 5px;
+
 }
 
 
 h2 {
-	font-size: 1.8rem;
+	font-size: 2.8rem;
 	color: hsl(184, 57%, 41%);
 	text-align: left;
 	line-height: 2.4;
+	font-weight: bold;
+	margin: 0;
 }
 
 h3 {
@@ -187,19 +188,193 @@ h3 {
 	color: hsl(221, 54%, 50%);
 }
 
+.tit {
+	font-style: bold;
+	font-size: 22px;
+}
 
+section #competenze div.class p {
 
+	justify-content: space-between;
+	align-items: left;
+	font-family: sans-serif;
+}
 
-
-.skill-list {
- content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url(/EsercizioPorfolio/Assets/img/disc-outline.svg);
+.skill-list p {
+	line-height: 20px;
+	margin: 15px 0;
+	font-size: 16px;
+	font-style: bold;
+	color: rgb(117, 103, 103);
 
 }
 
+.sk {
+	background-color: #a3c1e483;
+	padding: 15;
+	margin: 0;
+}
+
+section h5 {
+	display: inline;
+	font-size: 25px;
+
+}
+
+.moves {
+	display: inline-block;
+	font-size: 25px;
+	padding-left: 36.5%;
+
+}
+
+.skill-list h6 {
+
+	line-height: 20px;
+	margin: 15px 0;
+	font-size: 24px;
+	font-style: bold;
+}
+
+.skill-list h6::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size: contain;
+	vertical-align: middle;
+	margin-right: 10px;
+	transform: translateY(-3px);
+}
+
+.skill-list h6.icon1::before {
+	content: "";
+	display: inline-block;
+	background-image: url(/EsercizioPorfolio/Assets/img/logo-html5.svg);
+	height: 20px;
+	width: 20px;
+
+}
+
+.skill-list h6.icon2::before {
+	content: "";
+	display: inline-block;
+	background-image: url(/EsercizioPorfolio/Assets/img/logo-css3.svg);
+	height: 20px;
+	width: 20px;
+
+}
+
+.skill-list h6.icon3::before {
+	content: "";
+	display: inline-block;
+	background-image: url(/EsercizioPorfolio/Assets/img/logo-github.svg);
+	height: 20px;
+	width: 20px;
+
+}
+
+.skill-list h6.icon4::before {
+	content: "";
+	display: inline-block;
+	background-image: url(/EsercizioPorfolio/Assets/img/code-working-outline.svg);
+	height: 20px;
+	width: 20px;
+
+}
+
+.skill-list h6.icon5::before {
+	content: "";
+	display: inline-block;
+	background-image: url(/EsercizioPorfolio/Assets/img/logo-markdown.svg);
+	height: 20px;
+	width: 20px;
+
+}
+
+.skill-progress {
+
+	display: inline-block;
+	float: right;
+	height: 10px;
+	width: 550px;
+	background: #eee;
+	border-radius: 5px;
+	margin-top: 5px;
+	font-size: 0;
+	transform: translateX(-50px);
+}
+
+.skill-progress::after {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	border-radius: 5px;
+	background: #c0ff2c;
+
+}
+
+p:nth-of-type(1) .skill-progress::after {
+	width: 90%;
+}
+
+p:nth-of-type(2) .skill-progress::after {
+	width: 80%;
+}
+
+p:nth-of-type(3) .skill-progress::after {
+	width: 60%;
+}
+
+p:nth-of-type(4) .skill-progress::after {
+	width: 40%;
+}
+
+p:nth-of-type(5) .skill-progress::after {
+	width: 20%;
+}
+
+
+th {
+
+	padding: 15px;
+	font-style: bold;
+	font-size: 20px;
+	text-align: justify;
+	color: #3f7b8d;
+
+}
+
+tr {
+	border-bottom: 2px solid #ebdddd
+}
+
+td {
+	padding: 10px;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 5px;
+	width: 100%;
+	table-layout: fixed
+}
+
+table {
+
+	padding: 20px;
+
+
+}
+
+
+.project{
+	border-radius: 5px;
+	border-left: 3px  solid red;
+}
 
 .project:nth-of-type(odd) {
 	background-color: hsl(143, 53%, 38%);
@@ -218,8 +393,8 @@ h3 {
 	color: #ffffff;
 	border-radius: 3px;
 	font-size: 0.75rem;
-	
-	
+
+
 }
 
 

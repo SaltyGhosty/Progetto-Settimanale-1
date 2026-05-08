@@ -512,5 +512,7 @@ nav.newone a:hover {
 	padding: 0;
 }
 .icon2{
+	display: inline-block;
 	padding:0;
+	transform: translateY(-13px);
 }
